@@ -1,0 +1,17 @@
+---
+summary:
+  name: KRKN
+  author: Argael Macpie
+  info: An oceanic dark theme.
+colors:
+  PRIMARY1: 0x505450
+  PRIMARY2: 0xE0E0E0
+  PRIMARY3: 0xB8BCB8
+  SECONDARY1: 0x282828
+  SECONDARY2: 0x4A90E2
+  SECONDARY3: 0x000000
+  FOCUS: 0x4A90E2
+  EDIT: 0x404440
+  ACTIVE: 0x4A90E2
+  WARNING: 0xE83030
+  DISABLED: 0x2F5E94
