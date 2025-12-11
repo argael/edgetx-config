@@ -1,10 +1,10 @@
-checksum: 8193
+checksum: 45366
 manuallyEdited: 0
 timezoneMinutes: 0
 ppmunit: 0
 semver: 3.0.0
 board: tx15
-calib: 
+calib:
    LH:
       mid: 1005
       spanNeg: 657
@@ -37,8 +37,8 @@ disableRtcWarning: 0
 keysBacklight: 0
 dontPlayHello: 0
 internalModule: TYPE_CROSSFIRE
-trainer: 
-   mix: 
+trainer:
+   mix:
       0:
          srcChn: 3
          mode: REPL
@@ -66,7 +66,7 @@ timezone: 1
 adjustRTC: 1
 inactivityTimer: 10
 internalModuleBaudrate: 3
-splashMode: 0
+splashMode: 3
 hapticMode: mode_nokeys
 switchesDelay: 0
 lightAutoOff: 120
@@ -82,12 +82,12 @@ speakerVolume: 18
 vBatMin: 64
 vBatMax: 84
 backlightBright: 55
-globalTimer: 53525
+globalTimer: 82325
 bluetoothBaudrate: 0
 bluetoothMode: OFF
 countryCode: 2
 pwrOnSpeed: 0
-pwrOffSpeed: 0
+pwrOffSpeed: -2
 noJitterFilter: 1
 imperial: 0
 disableRssiPoweroffAlarm: 0
@@ -101,20 +101,32 @@ backgroundVolume: 3
 varioPitch: 0
 varioRange: 0
 varioRepeat: 0
-customFn: 
+customFn:
    0:
-      swtch: "ON"
+      swtch: "SD0"
       func: RGB_LED
       def: "rgb_krkn,1,On"
    1:
       swtch: "ON"
       func: BACKLIGHT
       def: "P2,1"
-serialPort: 
+   2:
+      swtch: "SD1"
+      func: RGB_LED
+      def: "Red2,1,On"
+   3:
+      swtch: "SD2"
+      func: RGB_LED
+      def: "Red2,1,On"
+   4:
+      swtch: "SD2"
+      func: PLAY_TRACK
+      def: "thmmod,1,1x"
+serialPort:
    VCP:
       mode: CLI
       power: 0
-potsConfig: 
+potsConfig:
    P1:
       type: with_detent
       inv: 0
@@ -123,7 +135,7 @@ potsConfig:
       type: with_detent
       inv: 0
       name: ""
-switchConfig: 
+switchConfig:
    SA:
       name: ""
       type: 3POS
@@ -148,11 +160,11 @@ switchConfig:
       start: START_PREVIOUS
       onColorLuaOverride: OFF
       offColorLuaOverride: OFF
-      onColor: 
+      onColor:
          r: 255
          g: 255
          b: 255
-      offColor: 
+      offColor:
          r: 0
          g: 0
          b: 0
@@ -162,11 +174,11 @@ switchConfig:
       start: START_PREVIOUS
       onColorLuaOverride: OFF
       offColorLuaOverride: OFF
-      onColor: 
+      onColor:
          r: 255
          g: 255
          b: 255
-      offColor: 
+      offColor:
          r: 0
          g: 0
          b: 0
@@ -176,11 +188,11 @@ switchConfig:
       start: START_PREVIOUS
       onColorLuaOverride: OFF
       offColorLuaOverride: OFF
-      onColor: 
+      onColor:
          r: 255
          g: 255
          b: 255
-      offColor: 
+      offColor:
          r: 0
          g: 0
          b: 0
@@ -190,11 +202,11 @@ switchConfig:
       start: START_PREVIOUS
       onColorLuaOverride: OFF
       offColorLuaOverride: OFF
-      onColor: 
+      onColor:
          r: 255
          g: 255
          b: 255
-      offColor: 
+      offColor:
          r: 0
          g: 0
          b: 0
@@ -204,11 +216,11 @@ switchConfig:
       start: START_PREVIOUS
       onColorLuaOverride: OFF
       offColorLuaOverride: OFF
-      onColor: 
+      onColor:
          r: 255
          g: 255
          b: 255
-      offColor: 
+      offColor:
          r: 0
          g: 0
          b: 0
@@ -218,11 +230,11 @@ switchConfig:
       start: START_PREVIOUS
       onColorLuaOverride: OFF
       offColorLuaOverride: OFF
-      onColor: 
+      onColor:
          r: 255
          g: 255
          b: 255
-      offColor: 
+      offColor:
          r: 0
          g: 0
          b: 0
